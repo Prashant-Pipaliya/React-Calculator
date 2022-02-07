@@ -26,3 +26,15 @@ input[type="button"]{
   height: 70px;
   font-size: 20px;
 }
+
+@media screen and (max-width: 600px){
+  .calc_main{
+    width: 300px;
+  }
+  .output_scrn{
+    width: 300px;
+  }
+  input[type="button"]{
+    width: 75px;
+  }
+}
